@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home {
+  background-color: #ebebeb;
+  font-family: "Roboto", sans-serif;
+}
+.home header {
+  background-color: #EAC926;
+}
+.home header .flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.home header .flex .buscador, .home header .flex .logo {
+  padding-top: 15px;
+  padding-left: 20px;
+  max-width: 300px;
+}
+.home header .flex img {
+  width: 50%;
+  padding: 0 10px;
+  padding-bottom: 20px;
+}
+.home header .centrado {
+  text-align: center;
+  padding: 20px 0;
+}
+.home header .centrado .burger-menu {
+  display: inline-block;
+  width: 30px;
+  background-color: #1259c3;
+  color: white;
+  padding: 6px;
+  border-radius: 4px;
+}
+.home header .container {
+  display: none;
+}
+.home header nav {
+  padding-bottom: 20px;
+}
+.home header nav li a {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (min-width: 361px) {
+  /* header */
+  .home header {
+    padding: 0 2px;
+  }
+  .home header .flex {
+    padding: 0;
+    flex-wrap: nowrap;
+    padding-top: 5px;
+    justify-content: space-between;
+  }
+  .home header .flex img {
+    width: 33.3%;
+  }
+  .home header .flex p {
+    font-size: 12px;
+  }
+  .home header .centrado {
+    display: none;
+  }
+  .home header .container {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .home header .container ul {
+    display: flex;
+  }
+  .home header .container ul li a {
+    font-size: 12px;
+    padding: 0 7px;
+  }
+}
+@media (min-width: 769px) {
+  /* header */
+  .home header .container ul li a {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+}
+.home main nav .banner {
+  width: 100%;
+}
+.home main section {
+  width: 90%;
+  margin: 0 auto;
+}
+.home main section h3 {
+  font-size: 24px;
+  color: #666;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.home main section article {
+  background-color: white;
+  margin: 10px 0;
+}
+.home main section article img {
+  width: 100%;
+}
+.home main section article .caja {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ebebeb;
+  padding: 15px 5px;
+  position: relative;
+}
+.home main section article i {
+  color: #39b54a;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -15px;
+  right: 20px;
+}
+.home main section article .precio {
+  font-size: 18px;
+  width: 30%;
+}
+.home main section article .off {
+  font-size: 16px;
+  color: #39b54a;
+  width: 70%;
+  padding-left: 10px;
+}
+.home main section article .articulo {
+  display: none;
+}
+
+@media (min-width: 361px) {
+  .home main section .flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .home main section .flex-box article {
+    width: 49%;
+    box-shadow: 0px 0px 10px #646464;
+  }
+  .home main section .flex-box article .caja {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .home main section .flex-box article .caja .precio {
+    font-size: 15px;
+  }
+  .home main section .flex-box article .caja .off {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  .home main section .flex-box article .caja .articulo {
+    display: inline;
+    color: #c3c3c3;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+}
+@media (min-width: 769px) {
+  .home main section .flex-box article {
+    width: 24%;
+  }
+  .home main section .flex-box article .caja .precio {
+    font-size: 15px;
+  }
+  .home main section .flex-box article .caja .off {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  .home main section .flex-box article .caja .articulo {
+    font-size: 16px;
+  }
+}
+.home footer {
+  text-align: center;
+  background-color: white;
+  margin: 5px;
+}
+.home footer i {
+  color: #1259c3;
+  font-size: 2em;
+  margin-top: 10px;
+}
+.home footer .titulo {
+  font-weight: 600;
+}
+.home footer p {
+  font-size: 12px;
+  padding: 5px 50px;
+  color: #666;
+}
+.home footer .derechos {
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */

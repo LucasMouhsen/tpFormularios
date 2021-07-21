@@ -1,0 +1,25 @@
+.home footer {
+  text-align: center;
+  background-color: white;
+  margin: 5px;
+}
+.home footer i {
+  color: #1259c3;
+  font-size: 2em;
+  margin-top: 10px;
+}
+.home footer .titulo {
+  font-weight: 600;
+}
+.home footer p {
+  font-size: 12px;
+  padding: 5px 50px;
+  color: #666;
+}
+.home footer .derechos {
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 15px;
+}
+
+/*# sourceMappingURL=footer.css.map */
