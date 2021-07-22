@@ -226,8 +226,9 @@ footer .derechos {
 }
 
 @media (min-width: 361px) {
-  .home main .banner {
+  .home main nav .banner {
     display: block;
+    max-height: 250px;
   }
 
   section .flex-box {
