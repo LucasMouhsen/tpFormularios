@@ -1,7 +1,4 @@
-.home {
-    background-color: #ebebeb;
-    font-family: 'Roboto', sans-serif;
-    header {
+header {
       background-color: #EAC926;
       .flex {
         display: flex;
@@ -9,20 +6,41 @@
         align-items: center;
         justify-content: space-around;
         .buscador, .logo {
-          padding-top: 15px;
-          padding-left: 20px;
+          margin-top: 10px;
           max-width: 300px;
+          align-self: center;
         }
-        img{
-          width:50%;
-          padding:0 10px;
-          padding-bottom: 20px;
+        .barra-de-busqueda {
+          width: 40%;
+          max-width: 300px;
+          position: relative;
+          .buscador{
+            width: 100%;
+            padding-bottom: 2px;
+          }
+          .lupa{
+            position: absolute;
+            color: black;
+            right: 3px;
+            top: 11px;
+            background-color: #fff;
+          }
         }
+        a.redireccion{
+          width: 45%;
+          align-items: left;
+          img{
+            width: 100%;
+            margin:0 10px;
+            margin-bottom: 10px;
+          }
+        }
+        
       }
 
       .centrado {
         text-align: center;
-        padding:20px 0;
+        padding:10px 0;
         .burger-menu {
           display: inline-block;
           width: 30px;
@@ -44,22 +62,29 @@
       }
     }
   }
-}
 
   @media (min-width: 361px) {
     /* header */
   
-    .home header {
+    header {
         padding:0 2px;
         .flex{
           padding: 0;
           flex-wrap: nowrap;
           padding-top: 5px;
           justify-content: space-between;
-          img{
-            width: 33.3%;
+          a.redireccion{
+            width: 30%;
+          }
+          .barra-de-busqueda {
+            width: 30%;
+            .buscador{
+              width: 100%;
+              padding-bottom: 2px;
+            }
           }
           p{
+            width:30%;
             font-size: 12px;
           }
         }
@@ -86,8 +111,13 @@
 @media (min-width: 769px) {
   /* header */
 
-  .home header .container ul li a{
-    font-size: 16px;
-    padding-left: 10px;
+  header{
+    .flex p{
+      font-size:16px;
     }
+    .container ul li a{
+      font-size: 18px;
+      padding-left: 10px;
+      }
   }
+}

@@ -1,0 +1,19 @@
+.register main {
+    .box-form{
+        text-align: left;
+        
+        .perfil{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 20px 0;
+            input{
+                width: 30px;
+                align-self: top;
+            }
+        }
+    }
+    .box-button{
+        margin-top: 20px;
+    }
+}

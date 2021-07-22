@@ -1,0 +1,37 @@
+.login main, .register main{
+    width: 70%;
+    max-width: 700px;
+    margin: 50px auto;
+    .box-form{
+        text-align: center;
+        input{
+            padding:10px 0;
+            margin: 10px 0;
+            width: 100%;
+            border: none;
+            border-radius:8px;
+        }
+    }
+    .box-remember{
+        text-align: right;
+    }
+    span{
+        color:#ff0000
+    }
+    .box-button{
+        text-align: center;
+        button{
+            padding:10px 0;
+            margin: 10px 0;
+            width: 100%;
+            border: none;
+            border-radius:8px;
+            background-color: $colorAzul;
+            color:#fff;
+        }
+        button:hover{
+            background-color: #0080ff;
+        }
+    }
+    
+}
